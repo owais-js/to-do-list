@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <style>
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <input id="input" placeholder="Enter any item here"/>
+    <button id="Add-btn" onclick="addItem()">Add</button>
+    <button id="update-btn" class="hide" onclick="updatebtnFunction()">Update</button><button onclick="delall(event)">Delete All</button>
+    
+    <ul id="list"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
